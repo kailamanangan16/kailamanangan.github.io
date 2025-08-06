@@ -1,0 +1,53 @@
+
+/* home page classes */
+
+.titleGroup {
+    background-color: rgb(249,169,214);
+    height: 55dvh;
+    border: none;
+    border-radius: 20px;
+}
+
+.groupButton {
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5dvh;
+}
+.circleButton { 
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    
+    
+    color:white;
+    font-size: clamp(0.5rem,2vw,1.5rem);
+    font-family: 'Jost';
+}
+
+.buttonGreen{
+    border: 3px solid  rgb(129, 197, 120);
+    background-color: rgb(172, 216, 142);
+}
+.buttonGreen:hover{
+    background-color: rgb(129, 197, 120);
+    transition: 0.3s;
+}
+
+.buttonPink{
+    border: 3px solid rgb(235, 152, 180);
+    background-color: rgb(249,169,214);
+}
+.buttonPink:hover{
+    background-color: rgb(235, 152, 180);
+    transition: 0.3s;
+}
+
+.buttonYellow{
+    border: 3px solid rgb(241, 198, 118);
+    background-color: rgb(245,211,122);
+}
+.buttonYellow:hover{
+    background-color: rgb(241, 198, 118);
+    transition: 0.3s;
+}
