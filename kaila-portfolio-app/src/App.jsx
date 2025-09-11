@@ -6,6 +6,7 @@ import Home from './pages/home.jsx'
 import About from './pages/about.jsx'
 import Experience from './pages/experience.jsx'
 import Projects from './pages/projects.jsx'
+
 function App() {
   return (
     <Router> 

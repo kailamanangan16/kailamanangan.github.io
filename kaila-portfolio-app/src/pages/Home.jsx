@@ -1,6 +1,14 @@
+import ProfileItem from '../components/home/ProfileItem.jsx'
+import LinkGroup from '../components/home/LinkGroup.jsx'
+
 function Home() {
   return (
-    <p>Home Page</p>
+    <>
+      <div class = "container">
+        <ProfileItem/>
+        <LinkGroup/>
+      </div>
+    </>
   )
 }
 

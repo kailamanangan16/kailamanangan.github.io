@@ -1,6 +1,7 @@
+
 function Projects() {
   return (
-    <p>Projects Page</p>
+    <p>Projects</p>
   )
 }
 
