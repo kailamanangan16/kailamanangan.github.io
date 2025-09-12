@@ -17,13 +17,21 @@ p {
 
 .container {
     display: flex;
-    align-items: space-evenly;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-
+/* this grid won't work!! :(
+body {
+    background-size: 40px 40px;
+    background:#F8E6CE;
+    background-image: 
+        linear-gradient(to right, #F1ADB5 1px, transparent 1px), 
+        linear-gradient(to bottom, #F1ADB5 1px, transparent 1px);
+}
+*/
 /* Home Page */
 .musicCard {
     width: 40%;
