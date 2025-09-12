@@ -1,6 +1,6 @@
 /* General Styles*/
 h1 {
-    font-size: clamp(2rem, 2.75vw, 3.5rem,);
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
     
     font-family: "Chivo Mono", monospace;
     font-weight: 400;
@@ -15,28 +15,51 @@ p {
     color: #5B1018;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 10px;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
 }
 
-/* this grid won't work!! :(
 body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: #F8E6CE;
     background-size: 40px 40px;
-    background:#F8E6CE;
-    background-image: 
-        linear-gradient(to right, #F1ADB5 1px, transparent 1px), 
-        linear-gradient(to bottom, #F1ADB5 1px, transparent 1px);
+    background-image: linear-gradient(to right, #F1ADB5 1px, transparent 1px), linear-gradient(to bottom, #F1ADB5 1px, transparent 1px);
 }
-*/
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 30px;
+    gap: 30px;
+}
+
 /* Home Page */
 .musicCard {
-    width: 40%;
-    height: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+
     padding: 15px;
+    width: 400px;
+    height: auto;
 
     border: #5B1018;
     border-style: solid;
@@ -45,23 +68,13 @@ body {
     background-color: #FAC67A;
 }
 
-.profilePicture {
-    width: 80%;
-
-    justify-content: center;
-    justify-self: center;
-
-    border: #5B1018;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 65px;
-    background-color: #F8E6CE;
-}
-
 .linksGroup {
-    width: 40%;
-    height: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
     padding: 15px;
+    width: 400px;
+    height: auto;
 
     border: #5B1018;
     border-style: solid;
@@ -69,10 +82,16 @@ body {
     background-color: #ff0e0e;
 }
 
-@media screen and (max-width: 800px) {
-  .musicCard, .linksGroup {
-    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+.profilePicture {
+    display: flex;
+    width: 60%;
+    flex-grow: 2;
 
+    border: #5B1018;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 65px;
+
+    background-color: #F8E6CE;
+}
 /* */

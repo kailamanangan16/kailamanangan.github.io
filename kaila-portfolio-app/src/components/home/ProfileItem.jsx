@@ -2,9 +2,7 @@ function ProfileItem() {
   return (
     <> 
       <div class = "musicCard"> 
-          <div class = "profilePicture">
-              <p>profile pic</p>
-          </div>
+          <div class = "profilePicture"></div>
           <h1 align="center">Kaila Manangan</h1>
       </div>
     </>
