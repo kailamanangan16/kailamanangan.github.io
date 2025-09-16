@@ -1,10 +1,11 @@
-/* General Styles*/
 h1 {
-    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    font-size: clamp(1.5rem, 3vw, 4rem);
     
     font-family: "Chivo Mono", monospace;
     font-weight: 400;
     color: #5B1018;
+
+    margin: 0.25em;
 }
 
 p {
@@ -31,6 +32,10 @@ body {
     background-image: linear-gradient(to right, #F1ADB5 1px, transparent 1px), linear-gradient(to bottom, #F1ADB5 1px, transparent 1px);
 }
 
+a {
+    text-decoration: none;
+}
+
 #root{
     display: flex;
     justify-content: center;
@@ -47,51 +52,5 @@ body {
 
     width: 100%;
     margin: 30px;
-    gap: 30px;
+    gap: 50px;
 }
-
-/* Home Page */
-.musicCard {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 15px;
-    width: 400px;
-    height: auto;
-
-    border: #5B1018;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 65px;
-    background-color: #FAC67A;
-}
-
-.linksGroup {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 15px;
-    width: 400px;
-    height: auto;
-
-    border: #5B1018;
-    border-style: solid;
-    border-width: 3px;
-    background-color: #ff0e0e;
-}
-
-.profilePicture {
-    display: flex;
-    width: 60%;
-    flex-grow: 2;
-
-    border: #5B1018;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 65px;
-
-    background-color: #F8E6CE;
-}
-/* */
