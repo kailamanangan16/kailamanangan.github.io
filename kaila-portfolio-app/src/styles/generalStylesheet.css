@@ -8,6 +8,16 @@ h1 {
     margin: 0.25em;
 }
 
+h2 {
+    font-size: clamp(1rem, 2vw, 3rem);
+    
+    font-family: "Chivo Mono", monospace;
+    font-weight: 400;
+    color: #5B1018;
+
+    margin: 0.25em;
+}
+
 p {
     font-size: clamp(1rem, 1.5vw, 2rem);
     
@@ -43,16 +53,17 @@ a {
     width: 100%;
 }
 
-.flexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-height: 100%;
-
+.windowBar {
     width: 100%;
-    margin: 50px;
-    gap: 50px;
+    height: 65px;
+    margin: 0;
+
+    border: #5B1018;
+    border-style: solid;
+    border-width: 3px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .windowBarExitButton {
@@ -72,6 +83,25 @@ a {
     color: #5B1018;
 }
 
-.brownFont {
-    color: #5B1018;
+.windowBarText {
+    padding-left: 30px;
+    color: #F8E6CE;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.generalContainerBorder {
+    border: #5B1018;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 65px;
 }

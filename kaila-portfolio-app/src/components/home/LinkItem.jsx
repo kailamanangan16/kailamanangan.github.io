@@ -4,7 +4,7 @@ function LinkItem(props) {
   return (
     <> 
       <Link to = {props.link}>
-        <div class = "linkItem">
+        <div class = "linkItem flexRow">
           <div class = {props.color}>
             <i class = {props.class}></i>
           </div>

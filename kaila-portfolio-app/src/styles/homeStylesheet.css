@@ -1,24 +1,26 @@
+.homeFlexContainer {
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+
+    width: 100%;
+    margin: 50px;
+    gap: 50px;
+}
+
 .musicCard {
-    display: flex;
     flex-grow: 1;
-    flex-direction: column;
     align-items: center;
 
     padding: 15px;
     width: 400px;
     height: auto;
 
-    border: #5B1018;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 65px;
     background-color: #FAC67A;
 }
 
 .linksGroup {
-    display: flex;
     flex-grow: 1;
-    flex-direction: column;
     padding: 15px;
     width: 400px;
     height: auto;
@@ -120,25 +122,19 @@
 }
 
 .socialsContainer {
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: left;
     align-items: left;
     gap: 10px;
 }
 
 .linkItem {
-    display: flex;
-    flex-direction: row;
     gap: 20px;
     padding-top: 10px;
     align-items: center;
 }
 
 .musicRow {
-    display: flex;
-    flex-direction: row;
     gap: 10px;
     align-items: center;
 }

@@ -4,7 +4,7 @@ import LinkGroup from '../components/home/LinkGroup.jsx'
 function Home() {
   return (
     <>
-      <div class = "flexContainer">
+      <div class = "homeFlexContainer flexRow">
         <ProfileItem/>
         <LinkGroup/>
       </div>
