@@ -12,14 +12,6 @@
     justify-content: space-between;
 }
 
-.aboutFlexContainer {
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    gap: 50px;
-}
-
 .iconGroupContainer {
     width: 40%;
     height: 20vh;
@@ -43,7 +35,7 @@
 
 .skillsExpContainer {
     width: 40%;
-    height: auto;
+    height: 50vh;
     justify-content: center;
     align-items: center;
 

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"
+import Resume from '../../assets/KailaMananganResume.pdf';
 
 function ResumeDownload(){
     return (
         <>
             <div class = "flexRow resumeDownloadContainer">
                 <i class="bi bi-download"></i>
-                <Link style = {{color: "#5B1018",}}><u>Download Resume</u></Link>
+                <a style = {{color: "#5B1018",}} href = {Resume} download><u>Download Resume</u></a>
             </div>
         </>
     )

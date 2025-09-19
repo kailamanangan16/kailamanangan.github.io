@@ -7,7 +7,7 @@ import ResumeDownload from "../components/about/ResumeDownload"
 function About() {
   return (
     <>
-      <div class = "aboutFlexContainer flexColumn">
+      <div class = "generalFlexContainer flexColumn">
         <WindowBar color = "#34A5B8" title = "About Me"/>
         
         <div class = "flexRow" style= {{width: "80%",}}>
@@ -15,10 +15,12 @@ function About() {
           <ResumeDownload/>
         </div>
         
-        <div class = "aboutFlexContainer flexRow">
+        <div class = "generalFlexContainer flexRow">
           <EducationContainer/>
           <SkillsContainer />
         </div>
+
+        <div style = {{width: "20vh"}}/>
       </div>
     </>
   )
