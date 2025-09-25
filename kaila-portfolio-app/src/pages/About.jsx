@@ -3,6 +3,8 @@ import IconGroup from "../components/about/iconGroup"
 import EducationContainer from "../components/about/EducationContainer"
 import SkillsContainer from "../components/about/SkillsContainer"
 import ResumeDownload from "../components/about/ResumeDownload"
+import FlowerGroup from '../assets/Flower_Group.png'
+
 
 function About() {
   return (
@@ -10,9 +12,10 @@ function About() {
       <div class = "generalFlexContainer flexColumn">
         <WindowBar color = "#34A5B8" title = "About Me"/>
         
-        <div class = "flexRow" style= {{width: "80%",}}>
+        <div class = "flexRow" style= {{width: "80%", gap: "10px", justifyContent: "center", alignItems: "center"}}>
           <IconGroup/>
           <ResumeDownload/>
+          <img src={FlowerGroup} style = {{position: "relative", width: "150px", height: "150px",}} />
         </div>
         
         <div class = "generalFlexContainer flexRow">
@@ -20,7 +23,8 @@ function About() {
           <SkillsContainer />
         </div>
 
-        <div style = {{width: "20vh"}}/>
+        <div style = {{height: "5vh"}}/>
+
       </div>
     </>
   )

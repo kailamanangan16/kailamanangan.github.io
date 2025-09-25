@@ -1,9 +1,9 @@
-import icon from '../../assets/iconPlaceholder.jpg';
+import icon from '../../assets/StandardProfilePicture.jpg';
 
 function IconGroup(){
     return (
         <>
-            <div class = "flexRow iconGroupContainer" style={{width: "70%", height: "auto",}}>
+            <div class = "flexRow iconGroupContainer" style={{width: "50%", height: "auto",}}>
                 <img src={icon} width = "100%" height = "100%" class = "aboutIcon"/>
                 <div class = "flexColumn">
                     <h1 class = "titleText">Kaila Manangan</h1>

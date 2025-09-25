@@ -1,4 +1,5 @@
-import icon from '../../assets/iconPlaceholder.jpg';
+import icon from '../../assets/FlowerProfilePicture.jpg';
+import ProgressBar from '../../assets/Progress_Bar.png'
 
 function ProfileItem() {
   return (
@@ -11,6 +12,7 @@ function ProfileItem() {
             <i class="bi bi-play-circle-fill playMusicIcon"></i>
             <i class="bi bi-skip-end-fill skipMusicIcon"></i>
           </div>
+          <img src={ProgressBar} width = "60%" height = "auto"/>
       </div>
     </>
   )

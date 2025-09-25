@@ -1,5 +1,7 @@
 import WindowBar from "../components/general/windowBar"
 import ExperienceContainer from "../components/experience/ExperienceContainer"
+import FlowerGroup from '../assets/Flower_Group.png'
+
 function Experience() {
   return (
     <>
@@ -13,7 +15,8 @@ function Experience() {
           <ExperienceContainer icon = "bi bi-plus-slash-minus" title = "Tutor" company = "Kumon Math and Reading Center (July 2019 - March 2020)" description = "Efficiently guided elementary school children through math and reading problems. Helped children develop independence and gain the ability to be proactive individuals."/>
         </div>
 
-        <div style = {{width: "20vh"}}/>
+        <div style = {{height: "5vh"}}/>
+
       </div>
       
     </>

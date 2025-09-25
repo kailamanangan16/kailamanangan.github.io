@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import FlowerGroup from '../../assets/Flower_Group.png'
+
 
 function ProjectItem (props){
     return (
