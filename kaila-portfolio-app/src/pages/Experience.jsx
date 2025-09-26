@@ -1,6 +1,5 @@
 import WindowBar from "../components/general/windowBar"
 import ExperienceContainer from "../components/experience/ExperienceContainer"
-import FlowerGroup from '../assets/Flower_Group.png'
 
 function Experience() {
   return (
